@@ -41,8 +41,8 @@ namespace Calculator
                             Console.WriteLine($"The result of the multiplikation is: {result}");
                             break;
                         case "4":
-                            divisonResult = (double)numOne / (double)numTwo;
-                            Console.WriteLine($"The result of the divison is: {divisonResult}");
+                            divisonResult = numOne / (double)numTwo;
+                            Console.WriteLine($"The result of the divison is: {divisonResult:F2}");
                             break;
                         default:
                             Console.WriteLine("Not a valid choice");
